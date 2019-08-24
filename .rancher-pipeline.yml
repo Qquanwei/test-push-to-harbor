@@ -1,0 +1,11 @@
+stages:
+- name: build
+  steps:
+  - publishImageConfig:
+      dockerfilePath: ./Dockerfile
+      buildContext: .
+      tag: localnginx
+      pushRemote: true
+      registry: harbor-dpvfv-harbor-registry.harbor-qz7hj
+timeout: 60
+notification: {}
