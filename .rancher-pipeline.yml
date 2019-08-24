@@ -6,6 +6,6 @@ stages:
       buildContext: .
       tag: localnginx
       pushRemote: true
-      registry: harbor-dpvfv-harbor-registry.harbor-qz7hj
+      registry: harbor.10.240.136.215.xip.io
 timeout: 60
 notification: {}
